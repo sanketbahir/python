@@ -1,0 +1,56 @@
+*indentation 
+*exit() => use this function for exit form  the code .
+.# => using we can commit the line 
+""" => using tripple line string  we can commit the more than one line """
+variable are case sensitive they will not  over write each  other 
+
+=============================================================================================================================================
+
+*rules for python variables
+1) must start with letter or underscore character
+2) can not  start with a number
+3) varibels names are case-sensitive 
+4) names can not be any python keywords
+
+=============================================================================================================================================
+
+*unpack a list =>
+fruits = ["apple","banana","cherry"]
+x,y,z  = fruits
+print(x) 
+print(y) 
+print(z) 
+
+=============================================================================================================================================
+
+*Data Types=>
+1) str =  text type
+2) int, float, complax = numeric types
+3) list, tupel, range = sequence types
+4) dict = mapping type
+5) set, frozenset = set type
+6) bool = boolean type
+7) bytes, bytarray, memoryview = binary type
+8) none type = nonetype
+
+=============================================================================================================================================
+
+* ''' or """ => using this three double quotes or single quotes at the start and end in varible we can create str data for multipel lines
+
+=============================================================================================================================================
+
+* if statment 
+
+*Print only if "free" is present:
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+  
+*print only if "expensive" is NOT present:
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+  
+
